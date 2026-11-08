@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 构建产物（由 build.sh 生成，不入库）
+dist/
+
+# 编译中间文件
+*.o
+*.dSYM/
+
+# 录制 / 测试音频
+*.wav
+*.mp3
+*.m4a
+*.caf
+*.aiff
+*.mp4
+*.mov
+
+# 编辑器
+*.swp
+*~
+.idea/
+.vscode/

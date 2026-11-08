@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.workbuddy.sysaudio</string>
+    <key>CFBundleName</key>
+    <string>SysAudioCapture</string>
+    <key>CFBundleDisplayName</key>
+    <string>系统声音录制</string>
+    <key>CFBundleExecutable</key>
+    <string>sysaudio</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSAudioCaptureUsageDescription</key>
+    <string>用于录下 Mac 正在播放的声音（视频、音乐、会议等系统输出音频）。</string>
+    <key>NSScreenCaptureUsageDescription</key>
+    <string>系统音频捕获需要「屏幕与系统音频录制」权限，本程序只读取音频，不保存画面。</string>
+</dict>
+</plist>
